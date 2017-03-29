@@ -12,10 +12,17 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Entry Form</h1>
-
+        <h1>Log In</h1>
+        <br/>
         <form name="Name Input Form" action="response.jsp">
-            Enter your name, Bitch:<input type="text" name="name"/>
+            Username:
+            <input type="text" name="username"/>
+            <br/>
+            <br/>
+            Password:&nbsp;
+            <input type="password" name="password"/>
+            <br/>
+            <br/>
             <input type="submit" value="OK" />
         </form>
     </body>
