@@ -12,8 +12,9 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <jsp:useBean id="myBean" scope="session" class="org.mypackage.hello.NameHandler" />
-        <jsp:setProperty name="myBean" property="name"  />
-        <h1>Hello, <jsp:getProperty name="myBean" property="name" />, you little whore.</h1>
+        <jsp:useBean id="myBean" scope="session" class="org.mypackage.hello.UserNameHandler" />
+        <jsp:setProperty name="myBean" property="username"  />
+        <h1>Hello, <jsp:getProperty name="myBean" property="username" />, you little whore.</h1>
     </body>
+    
 </html>
