@@ -4,7 +4,7 @@
     Author     : Tank
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>  
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,6 +21,7 @@
             else
                 {
                     alert("Error Password or Username")
+                    window.location.reload();
                 }
             }
         </script>
