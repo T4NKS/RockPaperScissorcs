@@ -21,7 +21,6 @@
                 } else
                 {
                     alert("Error Password or Username")
-                    window.location.reload();
                 }
             }
         </script>
