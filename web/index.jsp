@@ -15,11 +15,10 @@
             function check(form)
             {
 
-            if(form.username.value == "Gowthaman" && form.password.value == "pass123")
+                if (form.username.value == "Gowthaman" && form.password.value == "pass123")
                 {
                     alert('Success')
-                }
-            else
+                } else
                 {
                     alert("Error Password or Username")
                     window.location.reload();
@@ -32,21 +31,21 @@
             <div id="centre">
                 <h1>Log In</h1>
                 <br/>
-                    <form name="Name Input Form" action="login.jsp">
-                    &nbsp;&nbsp;&nbsp;Username:
-                    <input type="text" name="username"/>&nbsp;&nbsp;&nbsp;
+                <form name="Name Input Form" action="login.jsp">
+                    Username:
+                    <input type="text" name="username"/>
                     <br/>
                     <br/>
-                    &nbsp;&nbsp;&nbsp;Password:&nbsp;
-                    <input type="password" name="password"/>&nbsp;&nbsp;&nbsp;
+                    Password:&nbsp;
+                    <input type="password" name="password"/>
                     <br/>
                     <br/>
                     <input type="submit" value="SUBMIT" onclick="check(this.form)"/>
-                    </form>
+                </form>
                 <br/>
             </div>
-            
+
         </div>
-              
+
     </body>
 </html>

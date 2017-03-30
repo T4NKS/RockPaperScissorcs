@@ -11,7 +11,13 @@ body{
     top: 50%;
     left: 50%;
     margin-top:-150px; 
-    margin-left:-150px; 
+    margin-left:-190px; 
     background: #aaa;
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px; 
+    width: 300px;
+    border-radius: 25px;
 }
+
+
 
